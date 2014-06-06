@@ -104,9 +104,9 @@ import flixel.FlxSprite;
 
 class Player extends FlxSprite
 {
-	public function new(X:Float=0, Y:Float=0, ?SimpleGraphic:Dynamic) 
+	public function new(X:Float=0, Y:Float=0, ?SimpleGraphic:Dynamic)
 	{
-		super(X, Y, ?SimpleGraphic);	
+		super(X, Y, ?SimpleGraphic);
 	}
 }</code></pre></p>
 		<p>We'll need to fix this up a bit to make it usable.</p>
