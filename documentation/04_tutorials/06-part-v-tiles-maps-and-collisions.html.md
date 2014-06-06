@@ -93,7 +93,7 @@ _map.loadEntities(placeEntities, "entities");</code></pre></p>
 	if (entityName == "player")
 	{
 		_player.x = x;
-		_player.y = y;	
+		_player.y = y;
 	}
 }</code></pre></p>
 		<p>So, if this function gets passed an entity with the name "player", it will set our player object's x and y values to the Entities x and y values (converting them from Strings to Ints).</p>
