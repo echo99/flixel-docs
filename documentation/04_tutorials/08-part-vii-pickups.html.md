@@ -36,7 +36,7 @@ title: "Part VII: Pickups"
 	</li>
 	<li>
 		<p>First, let's make a FlxGroup to hold all the coins in. In the top of our class, where we defined all our variables so far, add:</p>
-		<p><pre><code class="haxe">private var _grpCoins:FlxTypedGroup&lt;Coin&gt;;</code></pre></p>
+		<p><pre><code class="haxe">private var _grpCoins:FlxTypedGroup&lt;Coin&gt;();</code></pre></p>
 		<p>FlxGroups are like arrays of Flixel Objects which can be used in a lot of different ways. In this case, since our group will only be containing coins, we will make it a FlxTypedGroup.</p>
 	</li>
 	<li>
